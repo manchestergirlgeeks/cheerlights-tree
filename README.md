@@ -8,7 +8,7 @@ Here are the steps you'll need to take to set up our code on your Pi Zero W:
 
 2. Launch a Terminal window (click the black rectangle at the top) and type the command:
     
-    *pip install twython*
+` pip install twython `
 
 This will install the Twython package for Python.
 
@@ -16,7 +16,7 @@ This will install the Twython package for Python.
 
 4. You can check your code is working. Go back to your terminal window and type:
 
-    *python /home/pi/Desktop/mggtree_fix.py*
+    `python /home/pi/Desktop/mggtree_fix.py`
 
 After a few seconds, the colour of the Blinkt should change to match the most recent #cheerlights tweet. Any tweet with the hashtag #cheerlights should trigger the colour change, and any colour in the list colours.csv will work. You can also use the word 'rainbow' in a #cheerlights tweet to get a rainbow effect.
 
@@ -24,11 +24,11 @@ If you don't want to clog up your timeline with **#cheerlights** tweets for your
 
 4. Go back to your terminal window and type
     
-    *crontab -e*
+    `crontab -e`
     
 This will load a text editor with your Crontab file - which tells the Pi what you'd like it to do each time the Pi boots. Use the arrow keys to go to the bottom of the file, and add the line (exactly!):
 
-    *@reboot python /home/pi/Desktop/mggtree_fix.py &*
+    `@reboot python /home/pi/Desktop/mggtree_fix.py &`
 
 Then press control-X to leave the editor, hit Y to say yes please save, and hit enter to save over the Crontab file. This will launch the code each time the Pi is powered up (although it may take some time to boot before it starts working).
 
