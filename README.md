@@ -14,6 +14,8 @@ This will install the Twython package for Python.
 
 3. Open the file mggtree_fix.py by double clicking on it (by default, this will launch in Thonny). Look through the code for lines with code comments (these will show up in grey) and replace the word SOMETHING on those lines with the correct code. Make sure you save your changes!
 
+(If you are using this repo without being present at the workshop, the correct version of the code is in mggtree.py. If you'd like to just use the correct version, you'll need to change the line in steps 4 and 5 to make sure you run the right code.)
+
 4. You can check your code is working. Go back to your terminal window and type:
 
     `python /home/pi/Desktop/mggtree_fix.py`
@@ -22,7 +24,7 @@ After a few seconds, the colour of the Blinkt should change to match the most re
 
 If you don't want to clog up your timeline with **#cheerlights** tweets for your followers, start your tweet with **@mgg_tree** - our tree's Twitter account doesn't mind, and if you don't have a Twitter account of your own, ask one of our team to tweet from there with your chosen colour.
 
-4. Go back to your terminal window and type
+5. Go back to your terminal window and type
     
     `crontab -e`
     
