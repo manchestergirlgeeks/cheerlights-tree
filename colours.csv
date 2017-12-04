@@ -340,9 +340,9 @@
  granny smith apple ,#a8e4a0
  gray ,#808080
  gray-asparagus ,#465945
- gray (html/css gray) ,#808080
+ grey ,#808080
  gray (x11 gray) ,#bebebe
- green (color wheel) (x11 green) ,#0f0
+ green ,#0f0
  green (crayola) ,#1cac78
  green (html/css green) ,#008000
  green (munsell) ,#00a877
@@ -629,7 +629,7 @@
  pistachio ,#93c572
  platinum ,#e5e4e2
  plum (traditional) ,#8e4585
- plum (web) ,#dda0dd
+ plum ,#dda0dd
  portland orange ,#ff5a36
  powder blue (web) ,#b0e0e6
  princeton orange ,#ff8f00
