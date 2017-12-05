@@ -35,3 +35,25 @@ This will load a text editor with your Crontab file - which tells the Pi what yo
 Then press control-X to leave the editor, hit Y to say yes please save, and hit enter to save over the Crontab file. This will launch the code each time the Pi is powered up (although it may take some time to boot before it starts working).
 
 Now you can unplug your Pi, fit it into the tree base and plug it in - it should run on its own whenever it's powered.
+
+6. The tree should work when connected to the wifi network it's currently on, but if you're going to take it home you'll need to teach it your home wifi name and password. Open the wifi config file by typing:
+
+    `sudo nano /etc/wpa_supplicant/wpa_supplicant.conf`
+
+You should be able to see the details of the current wifi network. You'll need to reproduce this exactly below what's there, as follows (inserting the relevant details):
+
+`network={
+    ssid="YOUR NETWORK SSID"
+    psk="YOUR WIFI PASSWORD"
+}`
+
+Now press ctrl-X to close it, Y to say yes please save, and enter to confirm you'd like to save it in the same place. Now (fingers crossed!!) your Pi should work automatically when you get it home.
+
+If you find it doesn't power up (you should wait a little while in case it's still loading), you may need to connect it to a monitor and keyboard/mouse to check it can connect to the wifi, and that the program runs ok.
+
+Enjoy your #cheerlights tree!
+
+
+
+
+
