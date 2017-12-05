@@ -43,8 +43,11 @@ Now you can unplug your Pi, fit it into the tree base and plug it in - it should
 You should be able to see the details of the current wifi network. You'll need to reproduce this exactly below what's there, as follows (inserting the relevant details):
 
 `network={`
+
 `    ssid="YOUR NETWORK SSID"`
+
 `    psk="YOUR WIFI PASSWORD"`
+
 `}`
 
 Now press ctrl-X to close it, Y to say yes please save, and enter to confirm you'd like to save it in the same place. Now (fingers crossed!!) your Pi should work automatically when you get it home.
