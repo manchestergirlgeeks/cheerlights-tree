@@ -9,8 +9,8 @@ import colorsys
 blinkt.clear()
 blinkt.show()
 
-APP_KEY = 'Fyu91pHPzP7PnHrjeJCVO92KA'
-APP_SECRET = 'WOSLUjfqmxtCNxCBtorrIHmTmtAjcFgM2qKL6xUPukeHIPm2s5'
+APP_KEY = 'KEY'
+APP_SECRET = 'SECRET'
 twitter = Twython(APP_KEY, APP_SECRET, oauth_version=2)
 ACCESS_TOKEN = twitter.obtain_access_token()
 twitter = Twython(APP_KEY, access_token=ACCESS_TOKEN)
